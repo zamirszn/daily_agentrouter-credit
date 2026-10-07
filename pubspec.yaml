@@ -1,0 +1,27 @@
+name: daily_login_runner
+description: Signs in to agentrouter.org with 3 GitHub accounts every day at 6:30pm.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_inappwebview: ^6.1.5
+  flutter_local_notifications: ^19.4.0
+  timezone: ^0.10.0
+  flutter_timezone: ^4.1.0
+  flutter_secure_storage: ^9.2.4
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.3.2
+  dynamic_color: ^1.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
