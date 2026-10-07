@@ -1,7 +1,7 @@
 # Daily Login Runner
 
 An Android app that signs in to https://agentrouter.org with your GitHub accounts, one after
-another, every day at 6:30pm (device time zone, falls back to Africa/Lagos).
+another, every day at 6:30pm by default to claim the daily $25 credit.
 For each account it: logs in, waits 10s, logs out, pauses, then moves to the next one.
 You can add as many accounts as you want.
 
